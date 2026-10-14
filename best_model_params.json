@@ -1,0 +1,32 @@
+{
+  "LogisticRegression_SMOTE": {
+    "solver": "liblinear",
+    "penalty": "l1",
+    "C": 100
+  },
+  "RandomForest_SMOTE": {
+    "n_estimators": 100,
+    "min_samples_split": 5,
+    "max_depth": null
+  },
+  "XGBoost_SMOTE": {
+    "n_estimators": 150,
+    "max_depth": 10,
+    "learning_rate": 0.1
+  },
+  "LogisticRegression_Undersampling": {
+    "solver": "liblinear",
+    "penalty": "l1",
+    "C": 100
+  },
+  "RandomForest_Undersampling": {
+    "n_estimators": 100,
+    "min_samples_split": 10,
+    "max_depth": 10
+  },
+  "XGBoost_Undersampling": {
+    "n_estimators": 100,
+    "max_depth": 6,
+    "learning_rate": 0.1
+  }
+}
